@@ -1,10 +1,15 @@
+# Environment files and secrets
 .env
 .env.*
 !.env.example
-*.pem
-*.key
 secrets/
 credentials/
+
+# Private keys
+*.pem
+*.key
+
+# Logs and generated files
 *.log
 __pycache__/
 .venv/
